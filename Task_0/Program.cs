@@ -2,6 +2,6 @@
 
 WriteLine("Введите число: ");
 
-int a = int.Parse(ReadLine());
-
+int a = int.Parse(ReadLine()!);
+// int b = Convert.ToInt32(ReadLine());
 WriteLine($"квадрат числа {a} = {a*a}  ");
