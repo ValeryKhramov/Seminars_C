@@ -6,7 +6,7 @@ int a1 = number / 10;
 int a2 = number % 10;
 WriteLine(number);
 WriteLine(a1 > a2? a1:a2);
-WriteLine(number % 2 == 0? "Even" : "Odd"); //  Тернальный оператор.
+WriteLine(number % 2 == 0? "Even" : "Odd"); //  Тернарный оператор.
 // if (a1 > a2)
 // {
 //     WriteLine(a1);
